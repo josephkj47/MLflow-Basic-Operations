@@ -7,7 +7,10 @@ import mlflow
 with mlflow.start_run():
   mlflow.log_param('parameter name', 'value')
   mlflow.log_metric('metric name', 1)
-  
+
+mlflow.set_tracking_uri("https://dagshub.com/josephkj47/MLflow-Basic-Operations.mlflow")
+
+
 import logging
 import sys
 import warnings
