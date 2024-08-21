@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/josep/OneDrive/Desktop/mlflow-test/mlruns/0/29ae42c3d36f4671ba5f48400689e751/artifacts
+end_time: 1724218402799
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29ae42c3d36f4671ba5f48400689e751
+run_name: bustling-rook-614
+run_uuid: 29ae42c3d36f4671ba5f48400689e751
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724218400357
+status: 3
+tags: []
+user_id: josep

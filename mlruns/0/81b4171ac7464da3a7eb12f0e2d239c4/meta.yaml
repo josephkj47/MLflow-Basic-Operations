@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/josep/OneDrive/Desktop/mlflow-test/mlruns/0/81b4171ac7464da3a7eb12f0e2d239c4/artifacts
+end_time: 1724218281653
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 81b4171ac7464da3a7eb12f0e2d239c4
+run_name: thundering-panda-719
+run_uuid: 81b4171ac7464da3a7eb12f0e2d239c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724218278030
+status: 3
+tags: []
+user_id: josep
