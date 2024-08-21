@@ -3,8 +3,6 @@ with mlflow.start_run():
   mlflow.log_param('parameter name', 'value')
   mlflow.log_metric('metric name', 1)
 
-mlflow.set_tracking_uri("https://dagshub.com/josephkj47/MLflow-Basic-Operations.mlflow")
-
 import dagshub
 dagshub.init(repo_owner='josephkj47',
              repo_name='MLflow-Basic-Operations',
@@ -84,6 +82,9 @@ if __name__ == "__main__":
 
         predictions = lr.predict(train_x)
         signature = infer_signature(train_x, predictions)
+
+        mlflow.set_tracking_uri("https://dagshub.com/josephkj47/MLflow-Basic-Operations.mlflow")
+
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
