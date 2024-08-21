@@ -1,8 +1,3 @@
-import dagshub
-dagshub.init(repo_owner='josephkj47',
-             repo_name='MLflow-Basic-Operations',
-             mlflow=True)
-
 import mlflow
 with mlflow.start_run():
   mlflow.log_param('parameter name', 'value')
@@ -10,6 +5,10 @@ with mlflow.start_run():
 
 mlflow.set_tracking_uri("https://dagshub.com/josephkj47/MLflow-Basic-Operations.mlflow")
 
+import dagshub
+dagshub.init(repo_owner='josephkj47',
+             repo_name='MLflow-Basic-Operations',
+             mlflow=True)
 
 import logging
 import sys
